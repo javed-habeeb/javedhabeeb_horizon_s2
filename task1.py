@@ -38,6 +38,7 @@ def main():
 if __name__ == '__main__':
     try:
         main()
+        sys.exit(0)
     except ValueError:
         print("usage: ./distance.py x1 y1 x2 y2  initialVelocity Acceleration topSpeed")
         sys.exit(1)
